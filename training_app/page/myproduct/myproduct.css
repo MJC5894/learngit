@@ -1,0 +1,89 @@
+
+/* 循环列表样式 */
+
+.mylist{
+    width:100%;
+    height:150;
+  }
+.mylistsec{
+    width:100%;
+    height:300;
+}
+/* 智能推荐 */
+.recom{
+    width:100%;
+    /* height: 800; */
+    margin: 20 0 0 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.recomside{
+    /* height: 100%; */
+    width: 90%;
+}
+.recompro{
+    height: 120;
+    width: 100%;
+    margin: 20 0 0 0; 
+    background-color: #fafafa;
+    border-radius: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.recomprotop{
+    margin: 20 0 0 0;
+}
+
+
+
+
+/* 设置智能推荐标题 */
+.recomlable{
+    width: 30%;
+    align-self: flex-start;
+    color: gray;
+}
+.lablename{
+    font-size: 18;
+    font-weight: bold;
+    margin: -6 0 8 0;
+}
+.flexedlable{
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.pricelable{
+    width: 70%;
+    text-align: right;
+    color: gray;
+}
+.lableprice{
+    font-size: 18;
+}
+.labledec{
+    color: gray;
+    margin: 6 0 0 0;
+    font-size: 13;
+}
+.flexeddiv{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pricediv{
+    width: 50%;
+}
+.ratediv{
+    width: 50%;
+}
+.lableself{
+    width: 100%;
+    text-align: right;
+   
+}
+.self{
+    width: 100%;
+    text-align: right;
+   
+}

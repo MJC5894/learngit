@@ -1,0 +1,65 @@
+<tml onload="init()">
+<!-- 账户商品详细信息页 -->
+	<head>
+		<style href="../common.css"/>
+        <style href="accountdetails.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="accountdetails.js"/>   
+		<script src="accountdetailsData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+					<img class="back" src="../../image/public/back.png" />
+			</div> 
+			<div id="" class="title"> 
+				<label value="{{title}}" id="" class="" />	
+			</div>
+            <div id="" class="main">
+                <div id="" class="maindiv">
+                    <div id="" class="maindivtitle">
+                        <div id="" class="contdivtitle">
+                            <label value="{{totalprice}}" id="" class="totalprice" />
+                            <label value="￥{{price}}元" id="" class="totalprice" />
+                        </div>
+                       
+                    </div>
+                    <div id="" class="maindivdatestar">
+                        <div id="" class="contdiv">
+                            <label value="存入日期" id="" class="titlelabel" />
+                            <label value="{{creatdate}}" id="" class="valuelabel" />
+                        </div>
+                    </div>
+                    <div id="" class="maindivdatestar">
+                        <div id="" class="contdiv">
+                            <label value="期限" id="" class="titlelabel" />
+                            <label value="{{limit}}个月" id="" class="valuelabel" />
+                        </div>
+                    </div>
+                    <div id="" class="maindivstop">
+                        <div id="" class="contdiv">
+                            <label value="到期日" id="" class="titlelabel" />
+                            <label value="{{stopdate}}" id="" class="valuelabel" />
+                        </div>
+                    </div>  
+                </div>
+                <div id="" class="contdiv">
+                      <label value="产品提前支取，只允许全部支取" id="" class="toplabel" />
+                </div>
+               
+                   
+                <button value="支取" id="" class="btnok" onclick="btnok()" />
+               
+            </div>
+           
+			
+            
+		</scroller>
+		
+		
+	</body>
+</tml>

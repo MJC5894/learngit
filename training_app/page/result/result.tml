@@ -1,0 +1,66 @@
+<tml onload="init()">
+<!-- 存款商品购买完成页 -->
+	<head>
+		<style href="../common.css"/>
+                <style href="result.css"/>
+		<style href="../../css/public.css"/>
+                <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="result.js"/>   
+		<script src="resultData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="" >
+			</div> 
+			<div id="" class="title"> 
+				<label value="{{title}}" id="" class="" />	
+			</div>
+			<div id="" class="main">
+                                <div id="" class="maindiv">
+                                        <div id="" class="maintitle">
+                                                <label value="{{result}}" id="" class="mainlabel" />  
+                                        </div>
+                                        <div id="" class="maindata">                                        
+                                                <label value="产品名称" id="" class="lableleft" />                                           
+                                                <label value="{{titlediv}}" id="" class="lableright" />                                                
+                                        </div>
+                                        <div id="" class="maindata">                                        
+                                                <label value="期限" id="" class="lableleft" />                                        
+                                                <label value="{{limit}}个月" id="" class="lableright" />                                        
+                                        </div>
+                                        <div id="" class="maindata">                                        
+                                                <label value="利率" id="" class="lableleft" />                                        
+                                                <label value="{{rate}}%" id="" class="lableright" />                                                
+                                        </div>
+                                        <div id="" class="maindata">                                        
+                                                <label value="到期日" id="" class="lableleft" />                                                
+                                                <label value="{{time}}" id="" class="lableright" />                                                
+                                        </div>
+                                        <div id="" class="maindata">                                        
+                                                <label value="到期安排" id="" class="lableleft" />                                        
+                                                <label value="{{way}}" id="" class="lableright" />                                        
+                                        </div>
+                                        <div id="" class="maindata">                                                
+                                                <label value="交易账号" id="" class="lableleft" />                                        
+                                                <label value="{{payway}}" id="" class="lableright" />                                                
+                                        </div>
+                                        <div id="" class="maindata">                                        
+                                                <label value="交易金额" id="" class="lableleft" />                                        
+                                                <label value="￥{{price}}" id="" class="lableright" />
+                                        </div>
+                                        <div id="" class="maindata">                                     
+                                                <label value="交易时间" id="" class="lableleft" />                                       
+                                                <label value="{{paydate}}" id="" class="lableright" />
+                                        </div>
+                                </div>                  
+				<button value="完成" id="" class="btnok" onclick="btnok" />            
+			</div>
+                 
+		</scroller>
+		
+		
+	</body>
+</tml>

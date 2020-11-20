@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="white">#000000</color> 
+  <color name="whited">#333333</color>
+  <color name="whitedc">#323232</color>
+  <color name="whitef6">#666666</color>
+  <color name="whitef5">#090909</color>
+  <color name="black">#ffffff</color>
+  <color name="black3">#eeeeee</color>
+  <color name="black6">#dddddd</color>
+  <color name="blackF">#ffffff</color>
+  <color name="black9">#bbbbbb</color>
+  <color name="red">#ec1d23</color>
+  <color name="blue">#1e90fb</color>
+  <color name="yellow">#fbaf1e</color>
+  <color name="blue_2">#1184f0</color>
+  <color name="whitef6f5">#000000</color>
+
+  <color name="white_body">#252525</color>
+  <color name="white_tabar">#242426</color>
+  <color name="white_click">#2c2c30</color>
+  <color name="white_shadow">#2c2c30</color>
+ <color name="white_click_d">#2c2c30</color>
+ <color name="life_search">#2c2c30</color>
+
+  <image name="elec">file:///mainApp/image/life/life_07-05_d.png</image>
+</resources>

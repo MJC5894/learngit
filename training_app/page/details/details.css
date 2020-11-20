@@ -1,0 +1,121 @@
+.main{
+    width: 100%;
+    margin: 20 0 0 0;
+    flex-direction: column;
+    align-items: center;
+}
+/* 第一块div */
+.adv{
+    width: 80%;
+    height: 180;
+    border: 0.6 solid red;
+    background-color: #fafafa;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advtop{
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2 solid gray;
+}
+.titlediv{
+    font-weight: bold;
+    font-size: 20;
+    margin: 10 0 0 0;
+}
+.rate{
+    font-size: 25;
+    color: red;
+    margin: 5 0 0 0;
+}
+.maxlabel{
+    color: gray;
+    margin:5 0 0 0;
+}
+.advbott{
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.bottomlabel{
+    width: 160;
+    text-align: center;
+}
+/* 产品利率 */
+.productrate{
+    width: 80%;
+    height: 200;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin: 15 0 0 0;
+    background-color: #fafafa;
+    border-radius: 10;
+}
+.ratelabel{
+    align-self: flex-start;
+    font-size: 15;
+    font-weight: bold;
+    margin: 15 0 15 10;
+}
+.labeldiv{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: center;
+    align-items: center;
+    width: 95%;
+    border: 1 solid black;
+    height: 30;
+    background-color: #ffffff;
+}
+.prolabel{
+    width: 50%;
+    text-align: center;
+    
+}
+.btnok{
+    width: 80%;
+    height: 50;
+    border: 0.4 solid black;
+    text-align: center;
+    border-radius: 6;
+    font-size: 16;
+    margin: 50 0 0 0;
+}
+.producla{
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20 0 0 0;
+}
+.prorule{
+    flex-direction: column;
+    align-items: center;
+}
+.rulediv{
+    width: 90%;
+    height: 40;
+    border-bottom: 2 solid #ffffff;
+}
+.rulebott{
+    width: 90%;
+    height: 40;
+}
+.rule{
+    flex-direction: row;
+}
+.rulerleft{
+    width: 40%;
+    height: 100%;
+    font-size: 14;
+    color: gray;
+}
+.ruleright{
+    width: 60%;
+    height: 100%;
+    text-align: right;
+    font-weight: bold;
+}

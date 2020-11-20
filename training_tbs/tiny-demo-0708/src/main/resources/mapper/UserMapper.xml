@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.sunline.tiny.demo.mapper.UserMapper">
+	<!--selectById,deleteById,updateById,insert is auto create, <resultMap id="BaseResultMap" 
+		is auto create -->
+	<select id="getMobileAndPwd"
+		parameterType="cn.sunline.tiny.demo.entity.User"
+		resultMap="BaseResultMap">
+		select * from user where mobile=#{mobile} and pwd=#{pwd}
+	</select>
+	<select id="getUserByDevId" parameterType="String"
+		resultMap="BaseResultMap">
+		select * from user where devid=#{value}
+	</select>
+	<select id="getUserByDevIdAndState" parameterType="cn.sunline.tiny.demo.entity.User"
+		resultMap="BaseResultMap">
+		select * from user where devid=#{devid} and space4=#{space4}
+	</select>
+	<insert id="InserUser"
+		parameterType="cn.sunline.tiny.demo.entity.User">
+		insert into
+		user(userid,pwd,islock,facepwd,devid,creatdate,modifydate,mobile,email,device_taken,password)
+		values(#{userid},#{pwd},#{islock},#{facepwd},#{devid},#{creatdate},#{modifydate},#{mobile},#{email},#{device_taken},#{password})
+	</insert>
+</mapper>

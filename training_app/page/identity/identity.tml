@@ -1,0 +1,50 @@
+<tml onload="init()">
+<!-- 身份认证页面 -->
+	<head>
+		<style href="../common.css"/>
+        <style href="identity.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="identity.js"/>   
+		<script src="identityData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+				<img class="back" src="../../image/public/back.png" />
+			</div> 
+			<div id="" class="title"> 
+				<label value="{{title}}" id="" class="" />	
+			</div>
+            <div id="" class="main">
+                <div id="" class="maindiv">
+                    <div id="" class="condiv">
+                        <div id="" class="labdiv">
+                            <label value="姓名" id="" class="labeltitle" />
+                            <input value="{{name}}" id="" class="inputstyle" tip="请输入您的姓名"/>
+                        </div>
+                    </div>
+                    <div id="" class="condiv">
+                        <div id="" class="labdiv">
+                            <label value="证件号码" id="" class="labeltitle" />
+                            <input value="{{number}}" id="" class="inputstyle" tip="请输入您的证件号码"/>
+                        </div>
+                    </div>
+                    <div id="" class="condiv">
+                        <div id="" class="labdiv">
+                            <label value="手机号码" id="" class="labeltitle" />
+                            <input value="{{mobile}}" id="" class="inputstyle" tip="请输入您的手机号码"/>
+                        </div>
+                    </div>
+                </div>
+                
+                <button value="{{btntitle}}" id="" class="btnok" onclick="btnok" />   
+            </div>     
+		</scroller>
+		
+		
+	</body>
+</tml>

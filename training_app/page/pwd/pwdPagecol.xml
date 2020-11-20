@@ -1,0 +1,11 @@
+<paths>
+    <forward>
+        <path ty:if="DATA.nextPage === 'pwdOk'" url="page/pwdok/pwdok.tml" class="push" />
+        <path ty:if="DATA.nextPage === 'index'" url="page/index/index.tml" class="push" />
+        <path ty:if="DATA.nextPage === 'login'" url="page/login/login.tml" class="push" />
+         <path ty:if="DATA.nextPage === 'identity'" url="page/identity/identity.tml" class="push" />
+    </forward>
+    <backward>
+        <path ty:if="true" class="pop"/>
+    </backward>
+</paths>

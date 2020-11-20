@@ -1,0 +1,97 @@
+.header{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.title_white{
+    width: 100%;
+   
+    text-align: center;
+    
+}
+.adv{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140;
+    border: 1 solid black;
+}
+.phndiv{
+    flex-direction: row;
+    width: 80%;
+    height: 50;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1 solid black;
+    margin: 20 0 0 34;
+}
+
+.phn{
+    font-size: 14;
+    flex-basis: 240;
+    margin: 0 0 0 10;
+}
+.pwddiv{
+    flex-direction: row;
+    width: 80%;
+    height: 50;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1 solid black;
+    margin: 0 0 0 34;
+}   
+.pwd{
+    font-size: 14;
+    flex-basis: 126;
+    margin: 0 0 0 6;
+}
+.rad{
+    width: 100%;
+}
+.reg{
+    justify-content: center;
+    align-items: center;
+    margin:  50 0 0 0;
+}
+.mes{
+    margin: 80 0 0 0;
+    color:#1E90FF;
+}
+.crosscenter{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.backBox{
+    flex-position: absolute ;
+    width: 50;
+    height: 10;
+}
+.back{
+    margin: 30 40 0 0;
+}
+/* 协议阅读区 */
+.rad1{
+    height: 14;
+    width: 14;
+    background-color:#1E90FF;
+    border-radius: 3;
+}
+.rad{
+    width: 80%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20;
+    margin: 10 0 0 34;
+}
+
+.pwdfind{
+  margin: 10 0 0 0;
+}
+.hidden{
+    margin: 0 10000 0 0;
+}
+.find{
+    color:#1E90FF;
+}

@@ -1,0 +1,21 @@
+<tml onload="init">
+	<head>
+		<style href="../pwd/pwd.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="pwdok.js"/>   
+		<script src="pwdData.js"/>
+	</head>
+	<body>   
+        <div class="container" >
+			 <div id="back" class="backBox"  onclick="back" >
+                    <img class="back" src="../../image/public/back.png" />
+                </div> 
+		  	<div id="" class="con1">	  
+				<GestureLock topTip = "设置手势密码" bottomTip = "请再次绘制解锁图案" id="GestureLock"/> 
+			</div>		
+		</div>
+	</body>
+</tml>

@@ -1,0 +1,59 @@
+.btnok{
+    width: 90%;
+    height: 50;
+    border: 0.4 solid black;
+    text-align: center;
+    border-radius: 20;
+    font-size: 16;
+    margin: 70 0 0 0;
+}
+.main{
+    width: 100%;
+    margin: 20 0 0 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20 0 0 0;
+}
+.maindiv{
+    width: 90%;
+    height: 500;
+    background-color: #fafafa;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20;
+}
+.maintitle{
+    width: 100%;
+    height: 50;
+    margin: 10 0 0 0;
+}
+.mainlabel{
+    width: 100%;
+    text-align: center;
+    height: 50;
+    font-size: 18;
+}
+.maindata{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50;
+  
+    border-bottom: 1.4 solid gray;
+}
+.lableleft{
+    width: 30%;
+    height: 100%;
+    font-size: 15;
+    color: gray;
+  
+}
+.lableright{
+    width: 70%;
+    height: 100%;
+    font-size: 20;
+    text-align: right;
+}

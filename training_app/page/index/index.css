@@ -1,0 +1,123 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.adv{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: 140;
+    border: 1 solid black;
+  
+}
+.template{
+    justify-content: center;
+    align-items: center;
+}
+.adv1{
+    width: 100;
+    height: 40;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 80%;
+    height: 40;
+    border: 1 solid black;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btnadv{
+    width: 100;
+    height: 20;
+  
+    border-radius: 10;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    border: 1 solid #ff9000;
+}
+.top1{
+    width: 100%;
+    height: 60;
+    /* border: 1 solid #ff9000; */
+    /* background-image: url(../../image/public/back@2x.png);
+    background-repeat: no-repeat; */
+    background-color: antiquewhite;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.top_lable_div{
+    width: 60;
+    height: 60;
+    flex-direction: column;
+    align-items: center;
+}
+.top_lable_img{
+    width: 40;
+    border-radius: 20;
+    border: 1 solid #ff9000;
+}
+.top_lablel{
+    font-size: 14;
+    color: #000000;
+}
+.bankimage{
+    margin: 3 0 0 0;
+    height: 15;
+    width: 15;
+    border: 1 solid black;
+}
+.banktitle{
+    border: 1 solid gray;
+    height: 22;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+/* 特色产品 */
+.act1{
+    width: 30%;
+    height: 100%;
+    border-left: 1 solid gray;
+    border-right: 1 solid gray;
+}
+.act{
+    height: 170;
+    width: 100%;
+    border: 1 solid gray;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* 智能推荐 */
+.recom{
+    height: 500;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.recom1{
+    width: 100%;
+    height: 30;
+    border: 1 solid #D0D0D0;
+}
+.recom2{
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1 solid #D0D0D0;
+    height: 30%;
+    width: 100%;
+}
+.recommend{
+    height: 80%;
+    background-color: #D0D0D0;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,68 @@
+<tml onload="init">
+<!-- 存款支付页 -->
+	<head>
+		<style href="../common.css"/>
+        <style href="pay.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="pay.js"/>   
+		<script src="payData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+					<img class="back" src="../../image/public/back.png" />
+			</div> 
+			<div id="" class="title"> 
+				<label value="{{title}}" id="" class="" />	
+			</div>
+			<div id="" class="main">
+                <div id="" class="maindiv">
+                    <label value="产品名称" id="" class="titleinfo" />
+                    <label value="{{titlediv}}" id="" class="proinfotitle" />
+                </div>
+                <div id="" class="maindiv">
+                    <label value="定存期限" id="" class="titleinfo" />
+                    <!-- <label value="" id="" class="proinfo" /> -->
+                    <select id="select" flat="false" tip="{{tip}}"  class="select" dataSource = "{{options}}" btnCancel="取消" btnOk="选择" >
+                        <option  value="{{item.option_value}}" caption="{{item.option_caption}}" />
+                    </select>
+                </div>
+                <div id="" class="maindiv">
+                    <label value="到期日" id="" class="titleinfo" />
+                    <label value="{{time}}" id="" class="proinfo" />
+                </div>
+                <div id="" class="pricediv">
+                    <label value="购买金额" id="" class="pricetitleinfo" />
+                    <!-- <label value="" id="" class="proinfo" /> -->
+                    <input value="{{price}}" id="" class="priceinfo" tip="请输入购买金额" type="cash" cashUnit="￥"/>
+                    
+                </div>
+                <div id="" class="maindiv">
+                    <label value="付款账号" id="" class="titleinfo" />
+                    <div id="" class="paydiv">
+                        <div id="" class="paynum">
+                            <label value="{{payway}}" id="" class="" />
+                            <label value="余额￥{{total}}" id="" class="payinfo" />
+                        </div>
+                        <label value=">" id="" class="payway" />
+                    </div>
+                    
+                    
+                </div>
+                <div id="" class="maindiv">
+                    <label value="续存方式" id="" class="titleinfo" />
+                    <label value="{{way}}" id="" class="proinfo" />
+                </div>
+				<button value="立即购买" id="" class="btnok" onclick="btnok" />
+               
+			</div>
+                 <AuthCode id ="AuthCode" length="6" encrypted="true" inputType="normal" starType="1" />
+		</scroller>
+		
+		
+	</body>
+</tml>

@@ -1,0 +1,31 @@
+{
+    "common": {
+      "width": "80%",
+      "height": "100%",
+      "background-color": "#ffffff",
+      "topTipSize": "17",
+      "bottomTipSize": "15",
+      "topTipColor": "#000000",
+      "bottomTipColor": "#2387ff",
+      "innerCircleNormalColor": "#dce0eb",
+      "innerCircleHlightedColor": "#1e90fb",
+      "lineWidth": "2",
+      "openGestureTrace": "1",
+      "topTipVisibility": "visible",
+      "bottomTipVisibility": "visible",
+      "patternVisibility": "hidden",
+      "patternSize":"60",
+      "topDistance":"5",
+      "bottomDistance":"10",
+      "midDistance":"15"
+    },
+    "type": {
+      "type1": {
+      
+        "bottomTipVisibility": "visible"
+      },
+      "type2": {
+      
+      }
+    }
+  }

@@ -1,0 +1,26 @@
+<config>
+   <forward  class="default" pageType="page" animate="slideFromRight" hidesTabBar="true" hideSafeArea="false" hidesStatusBar="false" startX="" startY="" delay=""/>
+   <forward  class="push" pageType="page" animate="slideFromRight" hidesTabBar="true" hideSafeArea="false" hidesStatusBar="false" startX="" startY="" delay=""/>
+   <forward  class="present" pageType="frame" animate="slideFromRight" closePrevious="false" disableGestureBack="false"/>
+   <forward  class="presentWithClosePrevious" pageType="frame" animate="slideFromRight" closePrevious="true" disableGestureBack="true"/>
+   <forward  class="open" pageType="open" width="100%" height="100%" animate="slideFromBottom"/>
+
+   <backward  class="default" pageType="page" animate="slideFromRight" delay=""/>
+   <backward  class="pop" pageType="page" animate="slideFromRight" delay=""/>
+   <backward  class="dismiss" pageType="frame" animate="slideFromRight"/>
+   <backward  class="close" pageType="open" animate="slideFromBottom"/>
+   <backward  class="default" pageType="page" animate="slideFromRight" delay=""/>
+
+   <advertBottom  class="default" height="200" animate="slideFromRight"/>
+   <advertOpen class="none" height="60%" width="230" animate="none" />
+   <advertOpen class="default" height="60%" width="230" animate="slideFromBottom" />
+   <advertOpen class="popShake" height="60%" width="230" animate="popShake" />
+   <advertOpen class="slideFromBottom" height="60%" width="230" animate="slideFromBottom" />
+   <advertOpen class="slideFromTop" height="60%" width="230" animate="slideFromTop" />
+   <advertOpen class="slideFromLeft" height="60%" width="230" animate="slideFromLeft" />
+   <advertOpen class="slideFromRight" height="60%" width="230" animate="slideFromRight" />
+   <advertOpen class="scaleFromTopRight" height="60%" width="230" animate="scaleFromTopRight" />
+   <advertOpen class="scaleFromBottomRight" height="60%" width="230" animate="scaleFromBottomRight" />
+<!--营销页面说明页画动作效果-->
+   <advertExplain  class="default"  animate="slideFromRight"/><!--高度全屏 宽度全屏-->
+</config>

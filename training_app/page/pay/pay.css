@@ -1,0 +1,110 @@
+.main{
+    width: 100%;
+    margin: 20 0 0 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20 0 0 0;
+}
+.maindiv{
+    width: 100%;
+    height: 60;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    margin: 1 0 0 0;
+}
+
+.proinfotitle{
+    font-size: 17;
+    font-weight: bold;
+    height: 100%;
+    margin: 0 20 0 0;
+    text-align: right;
+}
+.proinfo{
+    font-size: 16;
+    font-weight: bold;
+    height: 100%;
+    margin: 0 20 0 0;
+    text-align: right;
+}
+.pricediv{
+    width: 100%;
+    height: 80;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fafafa;
+    margin: 1 0 0 0;
+}
+.titleinfo{
+    color: gray;
+    font-size: 16;
+    height: 100%;
+    margin: 0 0 0 20;
+}
+/* 购买金额标题 */
+.pricetitleinfo{
+    align-self: flex-start;
+    color: gray;
+    font-size: 16;
+    height: 50%;
+    margin: 0 0 0 20;
+}
+/* 购买金额输入框 */
+.priceinfo{
+    font-size: 16;
+    width: 90%;
+    height: 50;
+    margin: -15 0 0 0;
+    /* font-weight: bolder; */
+}
+.select{
+    width: 40%;
+    height: 100%;
+    font-size: 16;
+    font-weight: bold;
+    height: 100%;
+    margin: 0 20 0 0;
+    text-align: right;
+}
+/* 支付方式样式 */
+.paydiv{
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 80%;
+}
+.paynum{
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 0 0 0;
+}
+.payinfo{
+    font-size: 14;
+    color: gray;
+}
+
+.payway{
+    margin: 0 20 0 0;
+    width: 20;
+    font-size: 20;
+}
+/* 购买button */
+.btnok{
+    width: 90%;
+    height: 50;
+    border: 0.4 solid black;
+    text-align: center;
+    border-radius: 6;
+    font-size: 16;
+    margin: 70 0 0 0;
+}
+/* 设置键盘属性，无效 */
+/* .hiddenbord{
+    width: 80%;
+    margin: 0 10000 0 0;
+    border: 1 solid black;
+} */

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="trace">
+  <properties>
+    <!--<Property name="baseDir">/mnt/d/temp/super_demo/demo_redis_cluster/logs</Property>-->
+    <Property name="baseDir">./logs</Property>
+    <Property name="fileName">/tiny_demo/tinyserver-demo-demo.log</Property>
+    <Property name="backupFilePattern">/tiny_demo/backup/tinyserver-demo-demo-%d{yyyyMMddHH}-%i.log.gz</Property>
+  </properties>
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <ThresholdFilter level="trace" onMatch="ACCEPT" onMismatch="DENY" />
+      <PatternLayout pattern="[%-d{yyyy-MM-dd HH:mm:ss,SSS}][%p][%F:%M():%L][%X{sid}-%X{tcode}] %m%n" />
+    </Console>
+    <JsonAppender name="JsonAppender" target="SYSTEM_OUT">
+      <ThresholdFilter level="trace" onMatch="ACCEPT" onMismatch="DENY" />
+      <PatternLayout pattern="[%5p] [%-d{yyyy-MM-dd HH:mm:ss,SSS}] [%M:%L] %m%n" />
+    </JsonAppender>
+
+    <RollingFile name="RollingFile" fileName="${baseDir}${fileName}" filePattern="${baseDir}${backupFilePattern}">
+      <PatternLayout>
+        <pattern>[%5p] [%-d{yyyy-MM-dd HH:mm:ss,SSS}] [%M:%L] %m%n</pattern>
+      </PatternLayout>
+      <Policies>
+        <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+        <SizeBasedTriggeringPolicy size="30MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="10">
+        <Delete basePath="${baseDir}" maxDepth="3">
+          <IfFileName glob="*/tinyserver-demo-*.log.gz" />
+          <IfLastModified age="1H" />
+        </Delete>
+      </DefaultRolloverStrategy>
+    </RollingFile>
+
+
+  </Appenders>
+  <Loggers>
+    <root level="debug">
+      <appender-ref ref="Console" />
+      <appender-ref ref="JsonAppender" />
+      <appender-ref ref="RollingFile" />
+    </root>
+  </Loggers>
+</configuration>

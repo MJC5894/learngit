@@ -1,0 +1,71 @@
+<tml onload="init()">
+<!-- 账户总览我的商品账户 -->
+	<head>
+		<style href="../common.css"/>
+        <style href="myproduct.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="myproduct.js"/>   
+		<script src="myproductData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+					<img class="back" src="../../image/public/back.png" />
+			</div> 
+			<div id="" class="title"> 
+				<label value="{{title}}" id="" class="" />	
+			</div>
+          
+			<!-- 循环列表 --> 
+            <div id="" class="listdiv recom">
+				<div id="" class="recomside">
+					<label value="智能存款产品" id="" class="recomlable" />
+					<list class="mylist" id="listviewtypefirst" dataSource="{{list}}" refreshBottom="false">
+						<template type="demo" >
+							<div id="" class="recompro recomprotop"  onclick="jump('{{item.id}}')">
+								<label value="{{item.name}}" id="" class="lablename" />
+								<label value="{{item.realp}}.00" id="" class="lableprice" />
+								<label value="持有金额(元)" id="" class="labledec" />
+							</div>
+						</template>
+					</list>
+				</div>
+            </div>
+			 <div id="" class="listdiv recom">
+				<div id="" class="recomside">
+					<div id="" class="flexedlable">
+						<label value="定期存款产品" id="" class="recomlable" />
+						<label value="总额:{{total}}元" id="" class="pricelable" />
+					</div>
+					
+					
+					<list class="mylistsec" id="listviewtypesecond" dataSource="{{listtype}}" refreshBottom="false">
+						<template type="demo" >
+							<div id="" class="recompro" onclick="jumptype('{{item.id}}')">
+								<label value="{{item.name}}" id="" class="lablename" />
+								<div id="" class="flexeddiv">
+									<div id="" class="pricediv">
+										<label value="{{item.realp}}.00" id="" class="lableprice" />
+										<label value="持有金额(元)" id="" class="labledec" />
+									</div>
+									<div id="" class="ratediv">
+										<label value="{{item.rate}}%" id="" class="lableprice lableself" />
+										<label value="收益率" id="" class="labledec self" />
+									</div>
+								</div>
+							
+								
+							</div>
+						</template>
+					</list>
+				</div>
+            </div>
+		</scroller>
+		
+		
+	</body>
+</tml>

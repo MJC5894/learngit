@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    /* height: 100%; */
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 30;
+    flex-direction: row;
+}
+.block{
+    width: 100%;
+    height: 1100;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.block1{
+    width: 80%;
+    height: 200;
+    margin: 20 0 0 0;
+    background-color: #D0D0D0;
+    border-radius: 5;
+}
+.btnblock{
+    width: 100%;
+    height: 50;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 100 0 0 0;
+}
+.btnok{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  
+}
+.btn{
+    width: 80%;
+    border: 1 solid  #D0D0D0;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10;
+    height: 40;
+}

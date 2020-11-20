@@ -1,0 +1,29 @@
+{
+  "common": {
+    "width": "100%",
+    "height": "40",
+    "background-color": "#ffffff",
+    "border-radius": "8",
+    "point-color": "#333333",
+    "font-color": "#333333",
+    "font-size": "24",
+    "title": "安全键盘",
+    "title-text-color": "#b7b7b7",
+    "type-face": "Poetr",
+    "keyboard-style": "custom",
+    "keyboard-typeface": "Poetr",
+    "keyboard-bac-color": "#F5f8fa",
+    "keyboard-ok-bac-gradient": "left_top right_bottom #9942ff #505fff",
+    "keyboard-radius": "5",
+    "keyboard-ok-bac-color": "gray",
+    "keyboard-font-color": "#333333",
+    "keyboard-font-size": "24",
+    "keyboard-ok-font-color": "#ffffff",
+    "keyboard-btn-color": "#FFFFFF",
+    "keyboard-highlight-color": "#fdbf62",
+    "keyboard-done-key-color": "#FFFFFF",
+    "bottom-offset": "50"
+  },
+  "type": {
+  }
+}

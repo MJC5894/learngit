@@ -1,0 +1,15 @@
+.backBox{
+    
+    height: 30;
+    width: 20;
+   
+}
+.title{
+    width: 100%;
+    height: 40;
+    padding: 0 0 20 0;
+    flex-direction: row;
+    justify-content: center;
+    margin: -44 0 0 0;
+    border-bottom: 1 solid black;
+}

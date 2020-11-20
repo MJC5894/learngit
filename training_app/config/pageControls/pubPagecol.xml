@@ -1,0 +1,8 @@
+<advertPaths>
+    <advertBottom>
+        <advertPath ty:if="false" boardUrl="page/login/login.tml" url="page/login/login.tml" class="adsBottom"/>
+    </advertBottom>
+    <advertOpen>
+        <advertPath ty:if="false" boardUrl="page/login/login.tml" url="page/login/login.tml" class="adsBottom"/>
+    </advertOpen>
+</advertPaths>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="white" desc="测试_Background">#FFFFFF</color> 
+  <color name="whited" desc="测试_Solid">#dddddd</color>
+  <color name="whitedc" desc="测试_Whitec">#dcdcdc</color>
+  <color name="whitef6" desc="测试_Background">#f6f6f6</color>
+  <color name="whitef5" desc="测试_WHitec">#f5f4f4</color>
+  <color name="black" desc="测试_Banner">#000000</color>
+  <color name="black3" desc="测试_Banner">#333333</color>
+  <color name="black6" desc="测试_Banner">#666666</color>
+  <color name="black9" desc="测试_Banner">#999999</color>
+  <color name="blackF" desc="测试_Banner">#333333</color>
+  <color name="whitef6f5" desc="测试_Banner">#F6F5FA</color>
+  
+  <color name="red" desc="测试_Banner">#ec1d23</color>
+  <color name="blue" desc="测试_W">#1e90fb</color>
+  <color name="yellow" desc="测试_Banner">#fbaf1e</color> 
+  <color name="blue_2" desc="测试_Banner">#1184f0</color>
+  <color name="white_body" desc="测试_Banner">#ffffff</color>
+  <color name="white_tabar" desc="测试_Tabar">#ffffff</color>
+  <color name="white_click" desc="测试_Banner">#ffffff</color>
+  <color name="white_shadow" desc="测试_Button">#F0F0F0</color>
+  <color name="white_click_d" desc="测试_Button">#f6f6f6</color>
+  <color name="life_search" desc="测试_Form">#F5F8FA</color>
+
+  <image name="elec" desc="测试_Bac">file:///mainApp/image/life/life_07-05.png</image>
+  
+
+</resources>

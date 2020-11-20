@@ -1,0 +1,9 @@
+<paths>
+    <forward>
+        <path ty:if="DATA.nextPage === 'losssuccess'" url="page/losssuccess/losssuccess.tml" class="push" />
+    </forward>
+    <backward>
+        <path ty:if="true" class="pop"/>
+    </backward>
+
+</paths>

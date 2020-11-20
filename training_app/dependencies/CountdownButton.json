@@ -1,0 +1,27 @@
+{
+    "common": {
+      "width": "114",
+      "height": "30",
+      "countdownBtn-type": "noBackground",
+      "font-size": "16",
+      "font-color": "#1e90fb",
+      "countdown": "60"
+    },
+    "type": {
+      "countdown1": {
+        "width": "100",
+        "height": "20",
+        "countdownBtn-type": "progress"
+      },
+      "countdown2": {
+        "border-radius": "19",
+        "font-color": "#ffffff",
+        "background-color": "#1e90fb",
+        "countdownBtn-type": "background"
+      },
+      "countdown3": {
+        "font-color": "#1e90fb",
+        "countdownBtn-type": "unline"
+      }
+    }
+  }

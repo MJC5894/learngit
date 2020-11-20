@@ -1,0 +1,44 @@
+<tml onload="init()">
+<!-- 挂失账户列表显示页 -->
+	<head>
+		<style href="../common.css"/>
+        <style href="loss.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="loss.js"/>   
+		<script src="losstData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+					<img class="back" src="../../image/public/back.png" />
+			</div> 
+			<div id="" class="title"> 
+				<label value="{{title}}" id="" class="" />	
+			</div>
+            <div id="" class="main">
+                 <!-- 循环列表 --> 
+                <div id="" class="recom">
+                    <div id="" class="recomside">
+                        <list class="mylist" id="listviewtypefirst" dataSource="{{list}}" refreshBottom="false">
+                            <template type="demo" >
+                                <div id="" class="labeldiv">
+                                    <label value="{{item.name}}" id="" class="lablename" />
+								    <label value="{{item.realp}}.00元" id="" class="lableprice" />
+                                </div>
+                            </template>
+                        </list>
+                    </div>
+                </div>
+
+                <button value="账户挂失" id="" class="btnok" onclick="btnok" />   
+            </div>
+               
+		</scroller>
+		
+		
+	</body>
+</tml>

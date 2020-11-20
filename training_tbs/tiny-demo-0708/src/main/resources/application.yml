@@ -1,0 +1,16 @@
+# set port and context path,  server.port=8000    server.servlet.context-path=/demo
+server:
+  port: 8088
+  servlet:
+    context-path: /demo
+ 
+# Activation configuration :applicatin-db.yml
+spring:
+  profiles:
+    active: db
+   
+  
+#tiny:
+#  system:
+#    flow:
+#      open: tiny_sys_rsa_exchange

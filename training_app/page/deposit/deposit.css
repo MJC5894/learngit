@@ -1,0 +1,78 @@
+.adv{
+    width: 100%;
+    height: 100;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    margin:10 0 0 0;
+    
+}
+/* 循环列表样式 */
+
+.mylist{
+    width:100%;
+    height:130;
+  }
+/* .temp{
+    width: 100%;
+    height: 120;
+  
+    background-color: #fafafa;
+} */
+/* 智能推荐 */
+.recom{
+    width:100%;
+    /* height: 800; */
+    margin: 20 0 0 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.recomside{
+    /* height: 100%; */
+    width: 90%;
+}
+.recompro{
+    height: 120;
+    width: 100%;
+    margin: 20 0 0 0; 
+    background-color: #fafafa;
+    border-radius: 10;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.recomprotop{
+    margin: 20 0 0 0;
+}
+/* 设置智能推荐标题 */
+.recomlable{
+    width: 90%;
+    align-self: flex-start;
+}
+.recomleft{
+    width: 34%;
+    height: 80%;
+    border-right: 1 solid black;
+    flex-direction: column;
+}
+.recomright{
+    width: 66%;
+    height: 80%;
+    margin: 0 0 0 20;
+    flex-direction: column;
+}
+.toplable{
+    color: red;
+    font-size: 20;
+    margin: 10 0 0 20;
+}
+.toplable1{
+    margin: 10 0 0 10;
+    font-size: 15;
+}
+.more{
+    align-self: flex-end;
+    color: gray;
+}
+

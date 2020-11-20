@@ -1,0 +1,35 @@
+<frame>
+     <head>
+        <script src="nav.js" />
+    </head>
+    <!-- <navigator id="nav">
+        <page url="index/index.tml"/>
+     
+    </navigator>  -->
+     <tabBar style="height:50;background-color:#D0D0D0;" id="tabBar">
+        <tab id="Dashboard" title="首页"  selected="true" style="background-color:#ffffff;width:20%;height:100%;text-align:center;margin:0 0 0 0;padding:0 0 0 0;font-size:14; color:#bc1e25;">
+            <navigator >
+                <page  url="index/index.tml" hidesStatusBar="true">
+                </page>
+            </navigator>
+        </tab>
+         <tab id="Dashboard" title="贷款"  selected="false" style="background-color:#ffffff;width:20%;height:100%;text-align:center;margin:0 0 0 0;padding:0 0 0 0;font-size:14; color:#bc1e25;">
+            <navigator id="nav2">
+                <page id="tml2" url="identity/identity.tml" hidesStatusBar="true">
+                </page>
+            </navigator>
+        </tab>
+        <tab id="Dashboard" title="理财" selected="false" style="background-color:#ffffff;width:20%;height:100%;text-align:center;margin:0 0 0 0;padding:0 0 0 0;font-size:14; color:#bc1e25;">
+            <navigator id="nav3">
+                <page id="tml3" url="loss/loss.tml" hidesStatusBar="true">
+                </page>
+            </navigator>
+        </tab>
+        <tab id="Dashboard" title="我的"  selected="false" style="background-color:#ffffff;width:20%;height:100%;text-align:center;margin:0 0 0 0;padding:0 0 0 0;font-size:14; color:#bc1e25;">
+            <navigator id="nav4">
+                <page id="tml4" url="user/user.tml" hidesStatusBar="true">
+                </page>
+            </navigator>
+        </tab>
+    </tabBar>
+</frame>

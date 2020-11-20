@@ -1,0 +1,21 @@
+{
+    "common": {
+      "width": "80",
+      "height": "32",
+      "radio-width":"32", 
+      "radio-height":"32", 
+      "check-img ":"url(../image/1.png)",
+      "unCheck-img":"url(../image/2.png)",
+      "text-color":"#d1d1d1",
+      "text-font":"14",
+      "link-text-color":"#d1d1d1",
+      "link-text-font":"12"
+    },
+    "type":{
+      "radio": {
+        "width": "192",
+        "height": "64",
+        "radio-drawable-padding": "5"
+      }
+    }
+  }

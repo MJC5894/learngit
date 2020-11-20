@@ -1,0 +1,9 @@
+<paths>
+    <forward>
+        <path ty:if="DATA.nextPage === 'widdrawal'" url="page/widdrawal/widdrawal.tml" class="push" />
+    </forward>
+    <backward>
+        <path ty:if="true" class="pop"/>
+    </backward>
+
+</paths>

@@ -1,0 +1,29 @@
+<tml onload="init">
+	<head>
+		<style href="pwd.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="pwd.js"/>   
+		<script src="pwdData.js"/>
+	</head>
+	<body>   
+	  
+        <div class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+                    <img class="back" src="../../image/public/back.png" />
+            </div> 
+			
+		  	<div id="" class="con1">
+				<GestureLock topTip = "输入手势密码"  id="GestureLock"/> 
+				<!-- <GestureLock topTip = "{{title}}"  id="GestureLock"/>  -->
+			</div>
+        	<div id="" class="{{pass}}" onclick="findPwd">
+				<label value="{{title}}" id="" class="{{pa}}" />
+			</div> 
+		</div>
+		
+		
+	</body>
+</tml>

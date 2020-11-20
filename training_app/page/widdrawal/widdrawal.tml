@@ -1,0 +1,83 @@
+<tml onload="init()">
+<!-- 账户商品支取页 -->
+	<head>
+		<style href="../common.css"/>
+        <style href="widdrawal.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="widdrawal.js"/>   
+		<script src="widdrawalData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+					<img class="back" src="../../image/public/back.png" />
+			</div> 
+			<div id="" class="title"> 
+				<label value="{{title}}" id="" class="" />	
+			</div>
+            <div id="" class="main">
+                <div id="" class="maindivtop">
+                    <div id="" class="topdiv">
+                        <div id="" class="titlediv">
+                            <label value="支取金额" id="" class="toptitle" />
+                            <label value="{{price}}" id="" class="toplabel" />  
+                        </div>
+                    </div>
+                    <div id="" class="topdiv">
+                        <div id="" class="titlediv">
+                            <label value="收取账号" id="" class="toptitle" />
+                           
+                            <label value="{{payway}}>" id="" class="toplabelpay" />
+                                    <!-- <label value="余额￥{{total}}" id="" class="payinfo" /> -->
+                              
+                        </div>
+                    </div>
+                </div>
+                <div id="" class="mdiv">
+                     <label value="支取试算" id="" class="mlabel" />
+                </div>
+                <div id="" class="maindivbott">
+                    <div id="" class="bottdiv">
+                        <div id="" class="titlediv">
+                            <label value="" id="" class="botttitle" />
+                            <label value="当前支取" id="" class="botttop" /> 
+                            <label value="到期支取" id="" class="botttop" />  
+                        </div>
+                    </div>
+                    <div id="" class="bottdiv">
+                          <div id="" class="titlediv">
+                            <label value="利率" id="" class="botttitle" />
+                            <label value="{{ratenow}}%" id="" class="bottlabel" />  
+                            <label value="{{rate}}%" id="" class="bottlabel" />  
+                        </div>
+                    </div>
+                    <div id="" class="bottdiv">
+                          <div id="" class="titlediv">
+                            <label value="利息(元)" id="" class="botttitle" />
+                            <label value="{{incomnow}}" id="" class="bottlabel" />  
+                            <label value="{{incom}}" id="" class="bottlabel" />   
+                        </div>
+                    </div>
+                    <div id="" class="bottdiv">
+                          <div id="" class="titlediv">
+                            <label value="本息合计(元)" id="" class="botttitle" />
+                            <label value="{{totalpricenow}}" id="" class="bottlabel" />  
+                            <label value="{{totalprice}}" id="" class="bottlabel" />  
+                        </div>
+                    </div>
+                
+                </div>
+               
+                   
+                <button value="支取" id="" class="btnok" onclick="btnok" /> 
+                <AuthCode id ="AuthCode" length="6" encrypted="true" inputType="normal" starType="1" />
+            </div>   
+            
+
+		</scroller>	
+	</body>
+</tml>

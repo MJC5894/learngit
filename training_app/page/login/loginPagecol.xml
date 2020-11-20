@@ -1,0 +1,10 @@
+<paths>
+    <forward>
+        <path ty:if="DATA.nextPage === 'pwd'" url="page/pwd/pwd.tml" class="push" />
+        
+        <path ty:if="DATA.nextPage === 'identity'" url="page/identity/identity.tml" class="push" />
+    </forward>
+    <backward>
+        <path ty:if="true" class="pop"/>
+    </backward>
+</paths>

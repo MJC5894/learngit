@@ -1,0 +1,53 @@
+<tml>
+<!-- 商品信息页，测试组件使用 -->
+	<head>
+		<style href="product.css"/>
+		<style href="../common.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="product.js"/>   
+		<script src="productData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+					<img class="back" src="../../image/public/back.png" />
+			</div> 
+			<div id="" class="title"> -->
+				<label value="{{title}}" id="" class="" />	
+			</div>
+			<div id="" class="block">
+				<div id="" class="block1">
+					
+				</div>
+				<div id="" class="block1">
+					
+				</div>
+				<div id="" class="block1">
+					
+				</div>
+				<div id="" class="block1">
+					
+				</div>
+				<div id="" class="block1">
+					
+				</div>
+			</div>
+			<div id="" class="btnblock">
+				<div id="" class="btn" onclick="keybord()">
+					<!-- <button value="立即购买" id="" class="btnok"  /> -->
+					<!-- <SecureKeyboard  id="userPwd" value="立即购买" maxLength="6" encrypted="true" showAllStar="false" isRandom="false" inputBoxStyle="nomal" keyBoardType="number" newStyle="true" showCounter="false" showError="false" type="nomal" /> -->
+					<AuthCode id="AuthCode" length="6" encrypted="false" inputType="normal" starType="1" openKeyboard="false"/>
+				</div>
+					
+			</div>
+			
+			
+		</scroller>
+		
+		
+	</body>
+</tml>

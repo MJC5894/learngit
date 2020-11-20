@@ -1,0 +1,50 @@
+<tml onload="init()">
+<!-- 存款支取成功 -->
+	<head>
+		<style href="../common.css"/>
+        <style href="consequence.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="consequence.js"/>   
+		<script src="consequenceData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+					<img class="back" src="../../image/public/back.png" />
+			</div> 
+			<div id="" class="title"> 
+				<label value="{{title}}" id="" class="" />	
+			</div>
+            <div id="" class="main">
+                <div id="" class="maindiv">
+                    <div id="" class="maindivpad">
+                        <label value="存款支取成功" id="" class="labsuccess" />
+                        <div id="" class="labdiv">
+                            <label value="交易时间" id="" class="lableft" />
+                            <label value="{{time}}" id="" class="labright" />
+                        </div>
+                         <div id="" class="labdiv">
+                            <label value="到账账户" id="" class="lableft" />
+                            <label value="{{way}}" id="" class="labright" />
+                        </div>
+                         <div id="" class="labdiv">
+                            <label value="到账金额" id="" class="lableft" />
+                            <label value="{{tran}}" id="" class="labright" />
+                        </div>
+                    </div>
+                </div>
+                 <button value="完成" id="" class="btnok" onclick="btnok" /> 
+            </div>
+                   
+               
+             
+          
+            
+
+		</scroller>	
+	</body>
+</tml>

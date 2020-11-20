@@ -1,0 +1,64 @@
+<tml onload="init()">
+	<head>
+		<style href="login.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>        
+        <script src="loginData.js"/>
+        <script src="login.js"/>
+	</head>
+	<body>   
+        <div class="container">
+			<div class="header hpanel crosscenter ">
+                
+                <div id="back" class="backBox"  onclick="back()" >
+                    <img class="back" src="../../image/public/back.png" />
+                </div> 
+              
+                <label value="{{title}}" id="id_title" class="title_white"/>
+               
+            </div>
+            <div id="" class="adv">
+                 <label value="银行logo" id="" class="logo" />
+            </div>
+            <div id="" class="sub">
+
+                <div id="" class="phndiv">
+                    <label value="手机号" id="" class="l1" />
+                    <input value="{{mobile}}" id="phonenumber" type="telephone" class="phn" tip="请输入您的手机号码" maxLength="11"/>        
+                </div>
+                <div id="" class="pwddiv">
+                    <label value="验证码" id="" class="l1" />
+                    <input value="{{pwd}}" id="pwd" class="pwd" type="number" tip="请输入验证码"/>  
+                    <CountdownButton btnTitleBegin = "发送验证码" id="CountdownButton1" processTitle="重新发送%s" />  
+                </div>
+               
+                <div id="" class="rad">
+                    <div id="" class="rad1">
+                        
+                    </div>
+                      <label value="我同意《用户相关协议》" id="" class=""  />
+                    <!-- <Radio  id="radio" type="{{type}}" disable="{{disable}}" value="{{value}}" text="{{text}}"
+                    textPosition = "{{textPosition}}"/>  -->
+                </div>
+               
+
+            </div>
+            <div id="" class="reg">
+                 <Button onclick ="testRequest"  value="{{title}}" type = "button4" disable= "false"/>
+                 <div id="" class="" onclick="showSheet">
+                      <label value="登录遇到问题？" class="mes"></label>
+                 </div>
+                 <div id="" class="{{style}}" onclick="loss()">
+                     <label value="账号挂失" id="" class="find" />  
+                 </div>
+                
+            </div>
+            
+         
+           
+            
+		</div>
+	</body>
+</tml>

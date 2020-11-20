@@ -1,0 +1,53 @@
+<tml>
+<!-- 电子账户开通 -->
+	<head>
+		<style href="../common.css"/>
+        <style href="fund.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="fund.js"/>   
+		<script src="fundData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+					<img class="back" src="../../image/public/back.png" />
+			</div> 
+			<div id="" class="title"> -->
+				<label value="{{title}}" id="" class="" />	
+			</div>
+			<div id="" class="infodiv">
+                <div id="" class="infodiv-name infocon">
+                    <label value="姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名" id="" class="" />
+                    <input value="{{name}}" id="" class="" tip="请输入您的姓名" class="inpueclass"/>
+                </div>
+                <div id="" class="infodiv-type infocon">
+                    <label value="证件类型" id="" class="" />
+                    <input value="{{card}}" id="" class="" tip="居民身份证" class="inpueclass"/>
+                </div>
+                <div id="" class="infodiv-number infocon">
+                     <label value="证件号码" id="" class="" />
+                    <input value="{{cardnumber}}" id="" class="" tip="请输入您的证件号码" class="inpueclass"/>
+                </div>
+                <div id="" class="infodiv-paypwd infocon">
+                    <label value="支付密码" id="" class="" />
+                    <input value="{{paypwd}}" id="" class="" tip="请输入支付密码" type="password" class="inpueclass"/>
+                </div>
+                <div id="" class="infodiv-paypwdok infocon">
+                    <label value="密码确认" id="" class="" />
+                    <input value="{{confirmpwd}}" id="" class="" tip="请再次输入支付密码" type="password" class="inpueclass"/>
+                </div>
+            </div>
+            <div id="" class="btndiv">
+                 <button value="信息提交" id="" class="btnok" onclick="submitinfo()" />
+            </div>
+           
+            
+		</scroller>
+		
+		
+	</body>
+</tml>

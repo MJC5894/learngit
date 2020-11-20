@@ -1,0 +1,44 @@
+<tml onload="init()">
+<!-- 挂失成功页面 -->
+	<head>
+		<style href="../common.css"/>
+        <style href="losssuccess.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="losssuccess.js"/>   
+		<script src="losssuccessData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  >
+					
+			</div> 
+			<div id="" class="title"> 
+				<label value="{{title}}" id="" class="" />	
+			</div>
+            <div id="" class="main">
+                <div id="" class="topdiv">
+					<div id="" class="resultdiv">
+						<label value="挂失成功" id="" class="successinfo" />
+						
+					</div>
+					<div id="" class="dateinfodiv">
+						<div id="" class="labinfodiv">
+							<label value="交易时间" id="" class="titlelabel" />
+							<label value="{{time}}" id="" class="timelabel" />
+						</div>
+						
+					</div>
+				</div>
+
+                <button value="完成" id="" class="btnok" onclick="btnok" />   
+            </div>
+               
+		</scroller>
+		
+		
+	</body>
+</tml>

@@ -1,0 +1,84 @@
+{
+    "common": {
+        "showLog": "true",
+        "encrypt": "false",
+        "clickInterval": "800",
+        "externalFonts": "false",
+        "useGoogleMap": "false",
+        "hidesStatusBar": "true",
+        "dimAmount": "0.6f",
+        "appBaseUrl": "http://demo.mtiny.cn:30080/gateway/",
+        "tinyIDE": "true",
+        "encryptType": "",
+        "signRequest": "false",
+        "lockCancelable": "false",
+        "lockTimeout": "5000",
+        "automationTest": "true",
+        "alertBackgroundColor": "",
+        "alertTextColor": "",
+        "resEncrypt": "false",
+        "keepDeviceId": "true",
+        "versionResUpdate": "false",
+        "touchSecurity": "sign",
+        "umPushKey": "5eb40571570df30096000055",
+        "merchantId": "shbh202006150007"
+    },
+    "im": {
+        "domain": "poc.mtiny.cn",
+        "host": "poc.mtiny.cn",
+        "port": "5222",
+        "subDomain": "",
+        "imUrl": "http://poc.mtiny.cn:5230/im/"
+    },
+    "trace": {
+        "url": "http://demo.mtiny.cn:30080/tiny_log_receive/",
+        "enable": "true"
+    },
+    "language": {
+        "multiLanguage": "true",
+        "defLanguage": "zh",
+        "backupLanguage": "en",
+        "matchedLanguage": [
+            {
+                "path": "config/lang/en.json"
+            },
+            {
+                "path": "config/lang/zh.json"
+            }
+        ]
+    },
+    "security": {
+        "pasteboardScope": "private",
+        "antiDebug": "false",
+        "rootCheck": "false",
+        "limitScreenShot": "false",
+        "screenFuzzy": "true",
+        "backgroundTime": "5",
+        "watermark": "true"
+    },
+    "screenSanpshot": {
+        "paths": [
+            "*.tml"
+        ]
+    },
+    "watermark": {
+        "icon": "image/water/water_03.png",
+        "icon-size": "0.3",
+        "rotation": "315",
+        "positionX": "0.9",
+        "positionY": "0.9",
+        "alpha": "200"
+    },
+    "taskcenter": {
+        "url": "http://demo.mtiny.cn:30080/api/tiny_task_scheduler/app/pageAppList.tml",
+        "enable": "true",
+        "interfaceVer": "v1.0.0"
+    },
+    "autotest": {
+        "AutoTestProjectVersion": "1.0.0",
+        "AutoTestProjectID": "com.sunline.tucao",
+        "AutoTestServerIP": "10.25.0.21",
+        "AutoTestServerPort": 8091,
+        "AutoTestServerAutoPath": "/autotest/api"
+    }
+}

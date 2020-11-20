@@ -1,0 +1,71 @@
+{
+  "common": {
+    "width": "300",
+    "height": "48",
+    "background-color": "#1e90fb",
+    "highlighted-color": "#ff0000",
+    "font-size": "14",
+    "font-color": "#ffffff"
+  },
+  "type": {
+    "loadingButton":{
+      "loading-image": "../image/loading/Loading.png",
+      "loading-size": "30",
+      "loading-padding": "20",
+      "loading-position": "right"
+    },
+    "button1": {
+      "width": "300",
+      "border-radius": "7",
+      "margin": "57 57 20 57"
+    },
+    "button2": {
+      "width": "100%",
+      "margin": "10 0 0 0"
+    },
+    "button3": {
+      "width": "100",
+      "border-radius": "7",
+      "margin": "0 57 0 57"
+    },
+    "button4": {
+      "width": "300",
+      "border-radius": "7",
+      "background-color": "#ffffff",
+      "margin": "13 57 13 57",
+      "border": "1 solid #1e90fb",
+      "font-color": "#1e90fb"
+    },
+    "button5": {
+      "width": "153",
+      "border-radius": "7",
+      "margin": "54 0 20 40"
+    },
+    "button6": {
+      "width": "153",
+      "border-radius": "7",
+      "background-color": "#fbaf1e",
+      "margin": "54 40 20 25"
+    },
+    "button7": {
+      "width": "248",
+      "height": "46",
+      "border-radius": "23",
+      "margin": "10 88 10 88"
+    },
+    "button8": {
+      "width": "248",
+      "height": "46",
+      "border-radius": "23",
+      "background-gradient": "left_top right_bottom #1ecafb #1e90fb",
+      "margin": "10 88 10 88"
+    },
+    "button9": {
+      "width": "248",
+      "height": "46",
+      "border-radius": "23",
+      "border": "4 solid #661e90fb",
+      "margin": "10 88 10 88"
+    }
+  }
+}

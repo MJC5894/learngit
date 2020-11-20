@@ -1,0 +1,115 @@
+<tml onload="init">
+<!-- 首页 -->
+	<head>
+        <style href="index.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>        
+        <script src="indexData.js"/>
+         <script src="index.js"/>
+	</head>
+	<body>   
+         <scroller  class="container" >
+            <div id="" class="adv">
+                <div id="" class="logo">
+                     <label value="{{logo}}" id="" class="" />
+                </div>
+                <div id="" class="adv1">
+                    <label value="广告语" id="" class="" />
+                </div>
+                <div id="" class="btnadv">
+                    <Button onclick ="jump()"  value="{{submit}}" type = "button3" disable= "false" class="bt1"/>
+                </div>
+            </div>
+            <div id="" class="top">
+                <div id="" class="top1">
+                <div id="" class="top_lable_div">
+                    <img id="" class="top_lable_img" src="../../image/public/back.png" />
+                    <label value="借款" id="" class="top_lablel" />         
+                </div>
+                <div id="" class="top_lable_div">
+                    <img id="" class="top_lable_img" src="../../image/public/back.png" />
+                    <label value="理财" id="" class="top_lablel" />         
+                </div>
+                <div id="" class="top_lable_div" onclick="deposit">
+                    <img id="" class="top_lable_img" src="../../image/public/back.png" />
+                    <label value="存款" id="" class="top_lablel" />         
+                </div>
+                <div id="" class="top_lable_div">
+                    <img id="" class="top_lable_img" src="../../image/public/back.png" />
+                    <label value="转账" id="" class="top_lablel" />         
+                </div>
+             </div>
+             <div id="" class="top1">
+                <div id="" class="top_lable_div">
+                    <img id="" class="top_lable_img" src="../../image/public/back.png" />
+                    <label value="扫一扫" id="" class="top_lablel" />         
+                </div>
+                <div id="" class="top_lable_div">
+                    <img id="" class="top_lable_img" src="../../image/public/back.png" />
+                    <label value="收付码" id="" class="top_lablel" />         
+                </div>
+                <div id="" class="top_lable_div" onclick="countinfo">
+                    <img id="" class="top_lable_img" src="../../image/public/back.png" />
+                    <label value="账户总览" id="" class="top_lablel" />         
+                </div>
+                <div id="" class="top_lable_div">
+                    <img id="" class="top_lable_img" src="../../image/public/back.png" />
+                    <label value="全部" id="" class="top_lablel" />         
+                </div>
+             </div>
+            </div>
+            <Paging id="Paging" dataSource="{{list}}" currentPage="2" flipInterval="2500" >
+                <template class="template" type="cell1">
+                    <label class="layout1 cellcolor0_1" value="{{item.data.item.value}}" /> 
+                </template>
+            </Paging>
+            <div id="" class="banktitle">
+                <div id="" class="bankimage">
+                </div>
+                <label value="银行公告的标题是xxxxxxxxxxxxxxxxxxxxxxx" id="" class="" />
+            </div>
+            <!-- 特色产品 -->
+            <div id="" class="act">
+                <div id="" class="act1">
+                    
+                </div>
+                <div id="" class="act1">
+                    
+                </div>
+                <div id="" class="act1">
+                    
+                </div>
+            </div>
+            <!-- 智能推荐 -->
+            <div id="" class="">
+                <div id="" class="recom1">
+                    <label value="智能推荐" id="" class="" />
+                </div>
+                <div id="" class="recom">
+                    <div id="" class="recom2">
+                    <label value="产品推荐" id="" class="" />
+                    <div id="" class="recommend" onclick="product">
+                        <label value="即富通系列，7天收益" id="" class="" />
+                        
+                    </div>
+                </div>
+                <div id="" class="recom2">
+                    <label value="产品推荐" id="" class="" />
+                    <div id="" class="recommend" onclick="product">
+                         <label value="博时沪深300指数  1折打包300家龙头股" id="" class="" />
+                    </div>
+                </div>
+                <div id="" class="recom2">
+                    <label value="产品推荐" id="" class="" />
+                    <div id="" class="recommend" onclick="product">
+                         <label value="国企债券  给你稳稳的幸福" id="" class="" />
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+       </scroller >
+	</body>
+</tml>

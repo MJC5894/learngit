@@ -1,0 +1,74 @@
+<tml onload="init()">
+<!-- 存款商品展示 -->
+	<head>
+		<style href="../common.css"/>
+        <style href="deposit.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="deposit.js"/>   
+		<script src="depositData.js"/>
+	</head>
+	<body>   
+	  
+        <scroller class="container" >
+			<div id="back" class="backBox"  onclick="back()" >
+					<img class="back" src="../../image/public/back.png" />
+			</div> 
+			<div id="" class="title"> 
+				<label value="{{title}}" id="" class="" />	
+			</div>
+            <div id="" class="adv">
+                <label value="广告位" id="" class="" />
+            </div>
+			<!-- 循环列表 --> 
+            <div id="" class="listdiv recom">
+				<div id="" class="recomside">
+					<label value="智能存款产品" id="" class="recomlable" />
+					<list class="mylist" id="listviewtypefirst" dataSource="{{list}}" refreshBottom="false">
+						<template type="demo" >
+							<div id="" class="recompro recomprotop">
+
+								<div id="" class="temp recomleft">
+									<label value="{{item.rate}}%" class="toplable"/>
+									<label value="预期最高收益" class="toplable1"/>
+								</div>
+								<div id="" class="recomright"  onclick="jump({{item.productid}})">
+									<label value="{{item.name}}" id="" class="buttlable" />
+									<label value="{{item.title}}" id="" class="buttlable" />
+									<label value="了解更多>>>" id="" class="more" />
+								</div>
+							</div>
+						</template>
+					</list>
+				</div>
+            </div>
+			 <div id="" class="listdiv recom">
+				<div id="" class="recomside">
+					<label value="定期存款产品" id="" class="recomlable" />
+					<list class="mylist" id="listviewtypesecond" dataSource="{{listtype}}" refreshBottom="false">
+						<template type="demo" >
+							<div id="" class="recompro">
+
+								<div id="" class="temp recomleft">
+									<label value="{{item.rate}}%" class="toplable"/>
+									<label value="预期最高收益" class="toplable1"/>
+								</div>
+								<div id="" class="recomright" onclick="jumptype({{item.productid}})">
+									<label value="{{item.name}}" id="" class="buttlable" />
+									<label value="{{item.title}}" id="" class="buttlable" />
+									<label value="到期资金自动到账" id="" class="buttlable" />
+
+									<label value="了解更多>>>" id="" class="more" />
+								</div>
+							</div>
+						</template>
+					</list>
+				</div>
+            </div>
+		</scroller>
+		
+		
+	</body>
+</tml>

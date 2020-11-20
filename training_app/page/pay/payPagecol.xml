@@ -1,0 +1,12 @@
+<paths>
+    <forward>
+        <path ty:if="DATA.nextPage === 'login'" url="page/login/login.tml" class="push" />
+        <path ty:if="DATA.nextPage === 'details'" url="page/details/details.tml" class="push" />
+         <path ty:if="DATA.nextPage === 'result'" url="page/result/result.tml" class="push" />
+
+    </forward>
+    <backward>
+        <path ty:if="true" class="pop"/>
+    </backward>
+
+</paths>

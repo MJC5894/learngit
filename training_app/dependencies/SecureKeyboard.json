@@ -1,0 +1,36 @@
+{
+    "common": {
+      "width": "100%",
+      "height": "100%",
+      "font-color": "#ff0000",
+      "font-size": "16",
+      "border-color": "#e9eaea",
+      "point-color": "#ffffff",
+      "keyboard-bac-color": "#e9eaea",
+      "keyboard-font-color": "#000000",
+      "keyboard-btn-color": "#ffffff",
+      "keyboard-done-key-color": "#ffffff",
+      "keyboard-highlight-color": "#d3d3d3",
+      "keyboard-back-img": "url(../image/public/icon_keyboarddDelete.png)",
+      "keyboard-down-img": "url(../image/public/icon_keyboardClose.png)",
+      "keyboard-switch-img": "url(../image/public/icon_keyboardShift.png)",
+      "keyboard-switch-sel-img": "url(../image/public/icon_keyboardShiftSel.png)",
+      "keyboard-font-size": "16",
+      "type-face": "",
+      "keybwod-type-face": "",
+      "hint-color": "#ff0000",
+      "tip-color": "#999999",
+      "press-color": "#666666",
+      "counter-color": "#000000",
+      "error-color": "#ff5287",
+      "tip-size": "14",
+      "counter-size": "16",
+      "error-size": "14",
+      "space": "10",
+      "star-color": "#00A1FA",
+      "cousor-color": "#666666",
+      "show-underline": "false"
+    },
+    "type": {
+    }
+  }

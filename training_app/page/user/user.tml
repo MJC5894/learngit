@@ -1,0 +1,39 @@
+<tml onload="init">
+<!-- tabbar组件，我的 -->
+	<head>
+		<style href="user.css"/>
+		<style href="../../css/public.css"/>
+        <script src="../../commonJs/config.js"/>
+		<script src="../../commonJs/tools.js"/>
+		<script src="../../commonJs/request.js"/>   
+		<script src="user.js"/>   
+		<script src="userData.js"/>
+	</head>
+	<body>   
+	  
+        <div class="container" >
+			<div id="" class="main">
+                <div id="" class="mainleft" onclick="addimg">
+                    
+                </div>
+                <div id="" class="mainright">
+                     <label value="{{mobile}}" id="" class="username" />
+                     <label value="{{tip}}" id="" class="" />   
+                </div>
+            </div>
+            <!-- <div id="" class="menulisst">
+                <MenuList id="MenuList"  dataPath = "data/menuList.json" dataSource="{{list}}" />
+            </div> -->
+            <!-- <div id="" class="menulisst">
+                <MenuList id="MenuList"  dataPath = "data/menuList.json" dataSource="{{list1}}" />
+            </div> -->
+            <div id="" class="shutdown">
+                <button value="退出登录" class="btn" onclick="shutdown()" />
+            </div>
+               
+        
+		</div>
+		
+		
+	</body>
+</tml>
